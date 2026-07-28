@@ -1,0 +1,257 @@
+BÁO CÁO KIỂM THỬ HỆ THỐNG: MEDIAVN.COM
+
+Ngày thực hiện: 28-07-2026
+Người thực hiện: Phan Tự Hải Duy
+
+1. MỤC TIÊU KIỂM THỬ
+
+Mục tiêu của bài kiểm thử là đánh giá chất lượng và tính ổn định của website MediaVN thông qua kiểm thử thủ công (Manual Testing).
+
+Các mục tiêu gồm:
+
+- Kiểm tra giao diện website.
+- Kiểm tra chức năng tìm kiếm.
+- Kiểm tra điều hướng giữa các trang.
+- Kiểm tra hiển thị sản phẩm.
+- Kiểm tra thông tin chi tiết sản phẩm.
+- Kiểm tra biểu mẫu liên hệ.
+- Phát hiện lỗi giao diện hoặc chức năng.
+
+2. PHẠM VI KIỂM THỬ
+
+Các trang được kiểm thử:
+
+- Trang chủ
+- Danh mục sản phẩm
+- Trang chi tiết sản phẩm
+- Thanh tìm kiếm
+- Menu điều hướng
+- Footer
+- Form liên hệ
+
+3. MÔI TRƯỜNG KIỂM THỬ
+
+Website:
+https://mediavn.com
+
+Thiết bị:
+Laptop Windows 10
+
+Trình duyệt:
+
+- Google Chrome
+- Microsoft Edge
+
+Loại kiểm thử:
+
+- Manual Testing
+
+4. TEST CASES
+
+TC01
+
+Tên:
+Kiểm tra truy cập Website
+
+Bước thực hiện:
+
+1. Mở trình duyệt
+2. Truy cập mediavn.com
+
+Kết quả mong đợi:
+
+Website hiển thị bình thường.
+
+Kết quả thực tế:
+
+Website truy cập thành công.
+
+Trạng thái:
+
+PASS
+
+
+TC02
+
+Tên:
+Kiểm tra Menu
+
+Bước thực hiện:
+
+1. Click từng menu.
+
+Kết quả mong đợi:
+
+Chuyển đúng trang.
+
+Kết quả thực tế:
+
+Menu hoạt động bình thường.
+
+Trạng thái:
+
+PASS
+
+
+TC03
+
+Tên:
+Kiểm tra Banner
+
+Bước thực hiện:
+
+Quan sát banner.
+
+Kết quả mong đợi:
+
+Banner hiển thị đầy đủ.
+
+Kết quả thực tế:
+
+Hiển thị tốt.
+
+Trạng thái:
+
+PASS
+
+
+TC04
+
+Tên:
+Kiểm tra Tìm kiếm
+
+Bước thực hiện:
+
+Nhập từ khóa.
+
+Kết quả mong đợi:
+
+Hiển thị kết quả phù hợp.
+
+Kết quả thực tế:
+
+Hiển thị danh sách sản phẩm.
+
+Trạng thái:
+
+PASS
+
+
+TC05
+
+Tên:
+Kiểm tra Chi tiết sản phẩm
+
+Bước thực hiện:
+
+Click một sản phẩm.
+
+Kết quả mong đợi:
+
+Hiển thị đầy đủ thông tin.
+
+Kết quả thực tế:
+
+Hiển thị chính xác.
+
+Trạng thái:
+
+PASS
+
+
+TC06
+
+Tên:
+Kiểm tra Responsive
+
+Bước thực hiện:
+
+Thu nhỏ cửa sổ trình duyệt.
+
+Kết quả mong đợi:
+
+Website tự điều chỉnh.
+
+Kết quả thực tế:
+
+Hiển thị tốt.
+
+Trạng thái:
+
+PASS
+
+5. BUG REPORT
+
+Bug 01
+
+Tên lỗi:
+
+Một số hình ảnh tải chậm khi tốc độ mạng thấp.
+
+Mức độ:
+
+Low
+
+Ưu tiên:
+
+Medium
+
+Trạng thái:
+
+Open
+
+
+
+Bug 02
+
+Tên lỗi:
+
+Một số banner có kích thước chưa đồng đều.
+
+Mức độ:
+
+Low
+
+Ưu tiên:
+
+Low
+
+Trạng thái:
+
+Open
+
+6. ĐÁNH GIÁ
+
+Ưu điểm
+
+- Website dễ sử dụng.
+- Giao diện đẹp.
+- Tốc độ tải khá tốt.
+- Chức năng tìm kiếm hoạt động ổn định.
+- Điều hướng rõ ràng.
+
+Nhược điểm
+
+- Một số hình ảnh tải chậm.
+- Banner chưa đồng nhất.
+- Cần tối ưu giao diện trên màn hình nhỏ.
+
+7. KẾT LUẬN
+
+Qua quá trình kiểm thử, website MediaVN hoạt động ổn định. Các chức năng chính đều hoạt động đúng yêu cầu, không phát hiện lỗi nghiêm trọng ảnh hưởng đến người dùng.
+
+Kết quả kiểm thử:
+
+PASS: 6
+
+FAIL: 0
+
+BUG: 2 (Mức độ thấp)
+
+Người thực hiện
+
+Phan Tự Hải Duy
+
+Ngày hoàn thành
+
+28-07-2026

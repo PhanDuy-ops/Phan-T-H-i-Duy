@@ -1,0 +1,143 @@
+BÁO CÁO: TÌM HIỂU VỀ TESTER
+
+Ngày: 28-07-2026
+
+Họ và tên: Phan Tự Hải Duy
+
+1. TESTER LÀ GÌ?
+
+Tester (Software Tester hay QA Tester) là người chịu trách nhiệm kiểm tra chất lượng phần mềm trước khi sản phẩm được phát hành đến người dùng.
+
+Tester giúp phát hiện lỗi (Bug), đánh giá trải nghiệm người dùng, kiểm tra chức năng và đảm bảo phần mềm đáp ứng đầy đủ các yêu cầu đã được đặt ra.
+
+Một Tester không chỉ tìm lỗi mà còn góp phần nâng cao chất lượng sản phẩm, giảm rủi ro cho doanh nghiệp và mang lại trải nghiệm tốt hơn cho khách hàng.
+
+2. VAI TRÒ CỦA TESTER
+
+Tester đóng vai trò rất quan trọng trong quy trình phát triển phần mềm.
+
+Các nhiệm vụ chính gồm:
+
+- Đọc và phân tích tài liệu yêu cầu (Requirement).
+- Lập kế hoạch kiểm thử (Test Plan).
+- Thiết kế Test Case.
+- Thực hiện kiểm thử thủ công (Manual Testing).
+- Thực hiện kiểm thử tự động (Automation Testing).
+- Ghi nhận Bug.
+- Theo dõi quá trình sửa lỗi.
+- Kiểm thử lại (Retest).
+- Kiểm thử hồi quy (Regression Test).
+- Báo cáo kết quả kiểm thử.
+
+3. CÔNG VIỆC HÀNG NGÀY CỦA TESTER
+
+Một Tester thường thực hiện các công việc sau:
+
+- Đọc tài liệu đặc tả của dự án.
+- Phân tích yêu cầu của khách hàng.
+- Chuẩn bị Test Plan và Test Case.
+- Thực hiện kiểm thử các chức năng.
+- Ghi nhận các lỗi phát hiện được.
+- Theo dõi quá trình sửa lỗi của Developer.
+- Kiểm thử lại sau khi lỗi được sửa.
+- Lập báo cáo kết quả kiểm thử.
+
+4. CÁC LOẠI KIỂM THỬ
+
+- Manual Testing: Kiểm thử thủ công bằng cách thao tác trực tiếp trên phần mềm.
+- Automation Testing: Kiểm thử tự động bằng các công cụ và kịch bản kiểm thử.
+- Functional Testing: Kiểm tra các chức năng của hệ thống.
+- UI Testing: Kiểm tra giao diện người dùng.
+- Performance Testing: Đánh giá tốc độ và khả năng chịu tải.
+- Security Testing: Kiểm tra các lỗ hổng bảo mật.
+
+5. QUY TRÌNH KIỂM THỬ PHẦN MỀM
+
+Bước 1: Phân tích yêu cầu.
+
+Bước 2: Lập Test Plan.
+
+Bước 3: Viết Test Case.
+
+Bước 4: Chuẩn bị môi trường kiểm thử.
+
+Bước 5: Thực hiện kiểm thử.
+
+Bước 6: Báo cáo Bug.
+
+Bước 7: Developer sửa lỗi.
+
+Bước 8: Kiểm thử lại (Retest).
+
+Bước 9: Regression Testing.
+
+Bước 10: Hoàn thành kiểm thử.
+
+6. BUG LÀ GÌ?
+
+Bug là lỗi phát sinh khiến phần mềm hoạt động không đúng với yêu cầu.
+
+Ví dụ:
+
+- Không đăng nhập được.
+- Nút bấm không hoạt động.
+- Sai dữ liệu hiển thị.
+- Biểu mẫu không gửi được.
+- Hình ảnh không hiển thị.
+
+7. MỨC ĐỘ NGHIÊM TRỌNG CỦA BUG
+
+- Blocker: Hệ thống không thể sử dụng.
+- Critical: Lỗi ảnh hưởng nghiêm trọng.
+- Major: Lỗi ảnh hưởng lớn đến chức năng.
+- Minor: Lỗi nhỏ, ít ảnh hưởng.
+- Trivial: Lỗi giao diện hoặc hiển thị.
+
+8. CÔNG CỤ THƯỜNG SỬ DỤNG
+
+- Jira.
+- Trello.
+- TestRail.
+- Selenium.
+- Cypress.
+- Postman.
+- MySQL.
+- Git.
+- GitHub.
+
+9. KỸ NĂNG CẦN CÓ
+
+- Phân tích yêu cầu.
+- Viết Test Case.
+- Kiểm thử Website.
+- Kiểm thử Mobile.
+- SQL cơ bản.
+- API Testing.
+- Giao tiếp.
+- Làm việc nhóm.
+- Tư duy logic.
+- Quản lý thời gian.
+
+10. ƯU ĐIỂM VÀ KHÓ KHĂN
+
+Ưu điểm:
+
+- Cơ hội việc làm cao.
+- Môi trường làm việc chuyên nghiệp.
+- Có lộ trình phát triển rõ ràng.
+
+Khó khăn:
+
+- Áp lực về thời gian.
+- Công việc lặp lại.
+- Cần liên tục cập nhật công nghệ mới.
+
+11. KẾT LUẬN
+
+Tester là vị trí quan trọng trong quá trình phát triển phần mềm. Công việc của Tester giúp phát hiện lỗi, đảm bảo chất lượng sản phẩm và nâng cao trải nghiệm của người dùng. Để trở thành một Tester giỏi cần có kiến thức chuyên môn, tư duy logic, kỹ năng giao tiếp và tinh thần trách nhiệm.
+
+Người thực hiện
+
+Phan Tự Hải Duy
+
+Ngày hoàn thành: 28-07-2026

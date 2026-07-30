@@ -1,0 +1,88 @@
+# Đánh Giá MEDAI Project Board
+
+## Giới thiệu
+
+MEDAI Project Board là một công cụ quản lý dự án trực tuyến được xây dựng theo mô hình **Kanban Board**, giúp các nhóm phát triển phần mềm theo dõi tiến độ công việc, phân chia nhiệm vụ và quản lý dự án một cách trực quan. Công cụ phù hợp với các nhóm sinh viên, nhóm phát triển phần mềm quy mô nhỏ và các dự án cần quản lý tiến độ theo phương pháp Agile.
+
+# Các chức năng chính
+
+MEDAI Project Board cung cấp một số chức năng cơ bản như:
+
+- Tạo dự án mới.
+- Tạo các nhiệm vụ (Task).
+- Chỉnh sửa thông tin nhiệm vụ.
+- Chuyển trạng thái công việc giữa các cột.
+- Theo dõi tiến độ thực hiện của dự án.
+- Quản lý danh sách công việc theo Kanban.
+
+# Giao diện
+
+Giao diện của MEDAI Project Board được thiết kế đơn giản, trực quan và dễ sử dụng. Các nhiệm vụ được hiển thị dưới dạng các thẻ (Card) trong từng cột như:
+
+- **To Do** – Công việc cần thực hiện.
+- **In Progress** – Công việc đang thực hiện.
+- **Done** – Công việc đã hoàn thành.
+
+Cách trình bày này giúp người quản lý và các thành viên dễ dàng theo dõi tiến độ của toàn bộ dự án chỉ trong một màn hình.
+
+# Ưu điểm
+
+## 1. Giao diện thân thiện
+
+- Thiết kế đơn giản, dễ sử dụng.
+- Người mới cũng có thể làm quen nhanh.
+- Các chức năng được bố trí rõ ràng.
+
+## 2. Quản lý công việc trực quan
+
+Việc sử dụng Kanban Board giúp người dùng dễ dàng:
+
+- Theo dõi tiến độ từng nhiệm vụ.
+- Biết công việc nào đang thực hiện.
+- Biết công việc nào đã hoàn thành.
+
+## 3. Dễ phân chia nhiệm vụ
+
+Project Manager có thể tạo nhiều công việc khác nhau để phân công cho từng thành viên trong nhóm, giúp giảm tình trạng bỏ sót công việc.
+
+## 4. Theo dõi tiến độ dự án
+
+Thông qua trạng thái của từng Task, Project Manager có thể nhanh chóng đánh giá tiến độ của toàn bộ dự án và phát hiện các nhiệm vụ đang bị chậm.
+
+## 5. Hỗ trợ làm việc nhóm
+
+Các thành viên trong nhóm có thể cập nhật trạng thái công việc thường xuyên, giúp mọi người nắm được tình hình dự án mà không cần trao đổi quá nhiều.
+
+## 6. Phù hợp với Agile
+
+Cách tổ chức công việc theo Kanban rất phù hợp với phương pháp Agile, đặc biệt trong các dự án phần mềm hoặc đồ án của sinh viên.
+
+# Nhược điểm
+
+## 1. Chưa có biểu đồ Gantt
+
+Hiện tại công cụ chưa hỗ trợ biểu đồ Gantt nên người dùng khó theo dõi mốc thời gian và sự phụ thuộc giữa các nhiệm vụ.
+
+## 2. Chưa quản lý ngân sách
+
+Công cụ chưa có chức năng theo dõi chi phí, ngân sách hoặc nguồn lực của dự án.
+
+## 3. Chưa quản lý rủi ro
+
+Không có tính năng ghi nhận, đánh giá và theo dõi các rủi ro phát sinh trong quá trình thực hiện dự án.
+
+## 4. Phân quyền còn hạn chế
+
+Chưa hỗ trợ phân quyền chi tiết cho các vai trò như:
+
+- Administrator
+- Project Manager
+- Developer
+- Tester
+- Customer
+
+# Kết luận
+
+Qua quá trình tìm hiểu và trải nghiệm, MEDAI Project Board là một công cụ quản lý dự án đơn giản, trực quan và phù hợp với các dự án nhỏ, bài tập nhóm hoặc đồ án sinh viên. Công cụ giúp quản lý công việc theo mô hình Kanban hiệu quả, hỗ trợ theo dõi tiến độ và phân chia nhiệm vụ dễ dàng.
+
+Tuy nhiên, để đáp ứng nhu cầu quản lý dự án chuyên nghiệp và quy mô lớn, MEDAI Project Board cần được phát triển thêm các tính năng như biểu đồ Gantt, quản lý ngân sách, quản lý rủi ro, phân quyền người dùng, báo cáo thống kê và hệ thống thông báo. Nếu được bổ sung các chức năng này, công cụ sẽ trở nên toàn diện hơn và đáp ứng tốt hơn nhu cầu của các nhóm phát triển phần mềm cũng như doanh nghiệp.

@@ -1,0 +1,215 @@
+# 📘 Báo Cáo Tìm Hiểu Về Quản Lý Dự Án (Project Management)
+
+## 1. Quản lý dự án (PM)
+
+Dựa trên hai tài liệu **Session 02: PM Tools & Requirements** và **Tutorial 02: PM Tools & Requirements**, nội dung chính của buổi học bao gồm:
+
+### 1.1 Agile và Scrum
+
+- Agile là phương pháp phát triển phần mềm theo hướng lặp (Iterative), giúp nhóm phát triển linh hoạt và thích nghi với sự thay đổi của khách hàng.
+- Scrum là framework phổ biến của Agile, chia dự án thành các Sprint ngắn (1–2 tuần).
+- Trong Scrum có các vai trò chính:
+  - Product Owner
+  - Scrum Master
+  - Development Team
+
+### 1.2 Kanban Board
+
+Kanban là bảng quản lý công việc trực quan giúp theo dõi tiến độ của từng nhiệm vụ.
+
+Các trạng thái thường sử dụng:
+
+- 📝 To Do
+- ⚙️ In Progress
+- ✅ Done
+
+Mỗi nhiệm vụ sẽ được di chuyển giữa các cột khi tiến độ thay đổi.
+
+### 1.3 Công cụ quản lý dự án
+
+Một số công cụ phổ biến:
+
+- Jira
+- Trello
+- GitHub Projects
+
+Các công cụ này hỗ trợ:
+
+- Quản lý công việc
+- Theo dõi tiến độ
+- Quản lý Bug
+- Quản lý Feature
+- Phân công thành viên
+- Theo dõi Deadline
+
+### 1.4 Requirements Engineering
+
+Requirements Engineering là quá trình thu thập, phân tích và quản lý yêu cầu của hệ thống.
+
+#### Functional Requirements
+
+Ví dụ:
+
+- Người dùng có thể đăng nhập.
+- Người dùng tìm kiếm sản phẩm.
+- Quản trị viên thêm sản phẩm mới.
+
+#### Non-Functional Requirements
+
+Ví dụ:
+
+- Thời gian tải dưới 2 giây.
+- Giao diện thân thiện.
+- Đảm bảo tính bảo mật.
+
+### 1.5 User Story
+
+Mẫu User Story:
+
+> As a **Role**, I want to **Action** so that **Benefit**.
+
+Ví dụ:
+
+> As a customer, I want to search products so that I can quickly find what I need.
+
+### 1.6 Acceptance Criteria
+
+Acceptance Criteria là các điều kiện để xác nhận chức năng đã hoàn thành.
+
+Ví dụ:
+
+- Đăng nhập thành công khi nhập đúng tài khoản.
+- Hiển thị thông báo khi sai mật khẩu.
+- Không cho phép đăng nhập khi tài khoản bị khóa.
+
+### 1.7 Quy trình phát triển
+
+```text
+Khách hàng
+      │
+      ▼
+Thu thập yêu cầu
+      │
+      ▼
+Functional & Non-functional Requirements
+      │
+      ▼
+User Story
+      │
+      ▼
+Kanban Board
+      │
+      ▼
+Development
+      │
+      ▼
+Testing
+      │
+      ▼
+Deploy
+```
+
+# 2. Bản quản lý dự án mẫu
+
+## Đề tài
+
+**Website Quản Lý Thư Viện**
+
+### Mục tiêu
+
+Xây dựng hệ thống quản lý thư viện có các chức năng:
+
+- Đăng nhập
+- Quản lý sách
+- Mượn sách
+- Trả sách
+- Quản lý người dùng
+- Báo cáo thống kê
+
+## Thành viên
+
+| Vai trò | Số lượng |
+|----------|----------|
+| Project Manager | 1 |
+| Front-end Developer | 1 |
+| Back-end Developer | 2 |
+| UI/UX Designer | 1 |
+| Tester | 1 |
+
+## Functional Requirements
+
+- Đăng nhập hệ thống
+- Thêm, sửa, xóa sách
+- Quản lý người dùng
+- Tìm kiếm sách
+- Mượn và trả sách
+
+## Non-Functional Requirements
+
+- Thời gian phản hồi dưới 2 giây
+- Hỗ trợ trên điện thoại và máy tính
+- Bảo mật dữ liệu
+- Sao lưu dữ liệu định kỳ
+
+## User Stories
+
+### Story 1
+
+**As a Librarian**
+
+I want to add new books
+
+So that students can borrow them.
+
+**Acceptance Criteria**
+
+- Có đầy đủ thông tin sách
+- Lưu thành công vào cơ sở dữ liệu
+
+### Story 2
+
+**As a Student**
+
+I want to search books
+
+So that I can easily find the book I need.
+
+**Acceptance Criteria**
+
+- Tìm theo tên sách
+- Tìm theo tác giả
+- Hiển thị kết quả chính xác
+
+### Story 3
+
+**As a Student**
+
+I want to borrow books
+
+So that I can study.
+
+**Acceptance Criteria**
+
+- Chỉ mượn khi còn sách
+- Lưu lịch sử mượn
+
+## Kanban Board
+
+### 📝 To Do
+
+- Thiết kế UI
+- Thiết kế Database
+- Thiết kế API
+
+### ⚙️ In Progress
+
+- Chức năng đăng nhập
+
+### ✅ Done
+
+- Phân tích yêu cầu
+- Viết User Stories
+
+# 3. Kết luận
+
+Qua buổi học, em đã hiểu được quy trình quản lý dự án theo phương pháp Agile và Scrum, cách sử dụng Kanban Board để quản lý tiến độ công việc, đồng thời nắm được quy trình phân tích yêu cầu, xây dựng Functional Requirements, Non-functional Requirements, User Stories và Acceptance Criteria.

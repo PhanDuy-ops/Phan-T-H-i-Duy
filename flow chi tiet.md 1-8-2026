@@ -1,0 +1,34 @@
+# QUY TRÌNH HOẠT ĐỘNG CHI TIẾT (FLOW DIAGRAM)
+
+## 1. Mermaid Diagram (Sơ đồ luồng xử lý)
+
+```mermaid
+flowchart TD
+    A[Bắt đầu: Nhập danh sách thành viên] --> B[Thiết lập Tham số: Số nhóm / Số người]
+    B --> C{Lựa chọn chế độ chia}
+    
+    C -->|Ngẫu nhiên hoàn toàn| D[Shuffle ngẫu nhiên danh sách]
+    C -->|Công bằng theo điểm/kỹ năng| E[Sắp xếp danh sách giảm dần theo Score]
+    
+    E --> F[Áp dụng thuật toán Snake Draft]
+    D --> G[Gán từng thành viên vào các nhóm]
+    F --> G
+    
+    G --> H{Có ràng buộc đặc biệt không?}
+    H -->|Có| I[Thực hiện Swap cân bằng giữa các nhóm]
+    H -->|Không| J[Tính toán chỉ số cân bằng nhóm]
+    I --> J
+    
+    J --> K[Hiển thị kết quả & Đồ thị thống kê]
+    K --> L[Xuất file kết quả CSV / Sao chép]
+    L --> M[Kết thúc]
+```
+
+## 2. Các bước xử lý chi tiết (Step-by-Step)
+1. **Đầu vào (Input):** Nhập chuỗi tên hoặc Upload CSV. Định dạng: `Tên, Điểm_Kỹ_Năng (1-10), Vai_Trò`.
+2. **Chuẩn hóa (Pre-process):** Loại bỏ trùng lặp, cắt khoảng trắng dư thừa, parse dữ liệu về mảng Object.
+3. **Tính toán (Core Logic):**
+   - Số lượng nhóm = $Math.ceil(Tổng thành viên / Số người 1 nhóm)$.
+   - Chia đều Leader trước (nếu có chọn vai trò Leader).
+   - Lần lượt rải các thành viên còn lại theo giải thuật Z-Snake.
+4. **Đầu ra (Output):** Render UI dạng Card cho từng nhóm, tính Điểm Trung Bình (Avg Score) của mỗi nhóm để người dùng đánh giá độ cân bằng.

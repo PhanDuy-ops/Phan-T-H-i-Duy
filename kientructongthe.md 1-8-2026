@@ -1,0 +1,21 @@
++-----------------------------------------------------------------+
+|                         USER INTERFACE                          |
+|  - Import/Input Data (Thành viên, Kỹ năng, Điểm số)             |
+|  - Thiết lập tham số (Số nhóm / Số người mỗi nhóm)              |
+|  - Dashboard hiển thị & Xuất dữ liệu (CSV/Excel)                |
++-----------------------------------------------------------------+
+|
+v
++-----------------------------------------------------------------+
+|                       CORE LOGIC ENGINE                         |
+|  - Data Normalizer (Làm sạch & chuẩn hóa dữ liệu đầu vào)       |
+|  - Balance Algorithm Engine (Thuật toán phân tách & cân bằng)   |
+|  - Constraint Validator (Kiểm tra điều kiện ràng buộc)          |
++-----------------------------------------------------------------+
+|
+v
++-----------------------------------------------------------------+
+|                        EXPORT & STORAGE                         |
+|  - Export File (CSV, JSON)                                      |
+|  - LocalStorage / Session Cache                                 |
++-----------------------------------------------------------------+

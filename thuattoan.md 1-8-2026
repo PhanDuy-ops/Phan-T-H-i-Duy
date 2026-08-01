@@ -1,0 +1,25 @@
+# THUẬT TOÁN PHÂN NHÓM CÔNG BẰNG (SNAKE DRAFT & GREEDY BALANCING)
+
+Để đảm bảo các nhóm được chia một cách **hiệu quả và công bằng nhất**, hệ thống kết hợp 2 phương pháp:
+
+## 1. Thuật toán Z-Snake (Snake Draft Algorithm)
+Dùng cho phân bổ thành viên dựa trên Điểm đánh giá năng lực (Skill Score từ 1 - 10).
+
+### Nguyên lý:
+1. **Sắp xếp** danh sách thành viên giảm dần theo Điểm năng lực.
+2. **Phân phối lượt lượt** vào các nhóm theo đường rích rắc (Z-shaped/Snake):
+   - **Vòng 1 (Từ trái sang phải):** Nhóm 1 -> Nhóm 2 -> ... -> Nhóm N
+   - **Vòng 2 (Từ phải sang trái):** Nhóm N -> Nhóm N-1 -> ... -> Nhóm 1
+   - Tiếp tục lặp lại cho đến khi hết thành viên.
+
+### Ví dụ (8 người chia 2 nhóm):
+- Danh sách xếp hạng: P1(10), P2(9), P3(8), P4(7), P5(6), P6(5), P7(4), P8(3)
+- Nhóm 1: P1(10), P4(7), P5(6), P8(3) => Tổng điểm = 26
+- Nhóm 2: P2(9), P3(8), P6(5), P7(4) => Tổng điểm = 26
+=> **Đạt độ cân bằng tuyệt đối (100%).**
+
+## 2. Thuật toán Greedy Adjustment (Tối ưu hóa Ràng buộc)
+Sau khi thực hiện Snake Draft:
+1. Kiểm tra các điều kiện bắt buộc (Leader bắt buộc chia đều vào các nhóm).
+2. Xử lý các ngoại lệ (Thành viên không muốn chung nhóm / Muốn chung nhóm).
+3. Đổi chỗ (Swap) các vị trí tương đồng về điểm số để thỏa mãn ràng buộc mà không làm lệch tổng điểm của nhóm.

@@ -1,0 +1,125 @@
+# BÁO CÁO BÀI TẬP TỰ HỌC - BUỔI 1
+
+**Chủ đề:** AI và các công cụ hỗ trợ phát triển ứng dụng hiện đại  
+**Người thực hiện:** [Điền tên của bạn]  
+**Mã sinh viên:** [Điền MSSV]  
+
+---
+
+## 1. Giới thiệu
+
+### AI là gì?
+Trí tuệ nhân tạo (AI - Artificial Intelligence) là một lĩnh vực của khoa học máy tính, tập trung vào việc tạo ra các hệ thống máy móc có khả năng mô phỏng các trí tuệ của con người. Các khả năng này bao gồm học tập, suy luận, tự sửa lỗi, hiểu ngôn ngữ tự nhiên và nhận diện hình ảnh.
+
+### AI đang được sử dụng như thế nào trong phát triển phần mềm?
+Trong quy trình phát triển phần mềm (SDLC), AI đã trở thành một "người trợ lý" đắc lực (AI Pair Programmer), hỗ trợ các công việc:
+- **Tự động sinh mã (Code Generation):** Viết boilerplate code, sinh hàm từ comment.
+- **Phát hiện và sửa lỗi (Bug Detection & Fixing):** Quét mã nguồn tìm lỗ hổng bảo mật, lỗi logic.
+- **Code Review & Tối ưu hóa:** Đề xuất clean code và tối ưu thuật toán.
+- **Tự động hóa kiểm thử:** Sinh Unit Test, Integration Test.
+- **Viết tài liệu (Documentation):** Tự động tạo docstring, README.
+
+---
+
+## 2. Các công cụ AI
+
+### 2.1 GitHub Copilot
+- **Giới thiệu:** AI Coding Assistant do GitHub và OpenAI hợp tác phát triển, tích hợp trực tiếp vào IDE.
+- **Chức năng chính:** Autocomplete code, sinh code từ comment, giải thích code, viết test (qua Copilot Chat).
+- **Ưu điểm:** Tích hợp sâu vào workflow, hỗ trợ đa ngôn ngữ.
+- **Nhược điểm:** Phải trả phí, đôi khi gợi ý code chứa lỗ hổng bảo mật nếu không kiểm duyệt.
+- **Ví dụ sử dụng:** Gõ comment `// fetch user data` và Copilot tự động điền thân hàm.
+
+> 📷 **Hình ảnh minh họa:**  
+> ![GitHub Copilot Example](link_anh_copilot_cua_ban.jpg)
+
+### 2.2 ChatGPT
+- **Giới thiệu:** Chatbot AI của OpenAI dựa trên các mô hình ngôn ngữ lớn (GPT-4o).
+- **Chức năng chính:** Hỏi đáp lập trình, sinh code, thiết kế hệ thống, dịch ngôn ngữ lập trình.
+- **Ưu điểm:** Hiểu ngôn ngữ tự nhiên xuất sắc, giải quyết bài toán phức tạp tốt.
+- **Nhược điểm:** Phải chuyển đổi qua lại giữa trình duyệt và IDE, dễ gặp hiện tượng "ảo giác" (hallucination).
+- **Ví dụ sử dụng:** Copy đoạn code báo lỗi vào chat và hỏi nguyên nhân & cách khắc phục.
+
+### 2.3 Cursor AI
+- **Giới thiệu:** AI IDE thế hệ mới được fork từ VS Code, tích hợp AI ở mức độ sâu.
+- **Chức năng chính:** Codebase indexing (đọc hiểu toàn bộ project), trò chuyện với AI bằng tham chiếu trực tiếp đến file, tự động apply code.
+- **Ưu điểm:** Khả năng hiểu ngữ cảnh toàn dự án cực mạnh, giữ nguyên extension của VS Code.
+- **Nhược điểm:** Tiêu tốn nhiều RAM khi index project lớn.
+- **Ví dụ sử dụng:** Nhấn `Ctrl + K`, gõ "Tạo button hỗ trợ dark mode", Cursor sẽ code trực tiếp vào trình soạn thảo.
+
+> 📷 **Hình ảnh minh họa:**  
+> ![Cursor AI Example](link_anh_cursor_cua_ban.jpg)
+
+### 2.4 Claude (Anthropic)
+- **Giới thiệu:** Mô hình AI của Anthropic (đặc biệt là Claude 3.5 Sonnet) rất mạnh về coding.
+- **Chức năng chính:** Phân tích tài liệu lớn, sinh code, review code.
+- **Ưu điểm:** Cửa sổ ngữ cảnh khổng lồ (đọc được hàng chục file code cùng lúc), code rất thông minh và ít lỗi.
+- **Nhược điểm:** Bản miễn phí giới hạn tin nhắn khá gắt gao.
+- **Ví dụ sử dụng:** Upload file log dài 5000 dòng để AI tìm nguyên nhân server crash.
+
+### 2.5 Gemini (Google)
+- **Giới thiệu:** Hệ sinh thái mô hình AI đa phương thức của Google.
+- **Chức năng chính:** Lập trình, xử lý hình ảnh, văn bản.
+- **Ưu điểm:** Tích hợp sâu vào hệ sinh thái Google (Android Studio, Google Cloud).
+- **Nhược điểm:** Khả năng suy luận logic phức tạp đôi lúc chưa bằng GPT-4o hoặc Claude.
+- **Ví dụ sử dụng:** Dùng Gemini trong Android Studio để viết UI Jetpack Compose.
+
+---
+
+## 3. Các khái niệm quan trọng
+
+1. **LLM (Large Language Model):** Mô hình ngôn ngữ lớn được huấn luyện trên lượng dữ liệu khổng lồ, có khả năng dự đoán từ tiếp theo để đọc hiểu, tóm tắt và sinh văn bản/code.
+2. **Prompt Engineering:** Kỹ thuật thiết kế câu lệnh đầu vào để điều khiển và tối ưu hóa kết quả đầu ra của AI.
+3. **Context Engineering:** Kỹ thuật cung cấp các thông tin nền tảng (ngữ cảnh) một cách có chọn lọc cho AI trước khi yêu cầu nó giải quyết vấn đề.
+4. **RAG (Retrieval-Augmented Generation):** Kỹ thuật kết hợp giữa tìm kiếm tài liệu thực tế và LLM để cung cấp câu trả lời chính xác, giảm thiểu "ảo giác".
+5. **MCP (Model Context Protocol):** Giao thức giúp các mô hình AI kết nối an toàn tới các nguồn dữ liệu ngoại vi (local file, database nội bộ).
+6. **Agentic Workflow:** Quy trình làm việc kiểu "tác tử", nơi AI có thể tự động Lập kế hoạch -> Viết code -> Chạy thử -> Đọc lỗi -> Tự sửa lỗi để hoàn thành mục tiêu.
+
+---
+
+## 4. Thực hành
+
+**Công cụ sử dụng:** ChatGPT / Cursor / Copilot (Chọn 1)
+
+### 4.1 Sinh mã nguồn & Giải thích code
+**Yêu cầu:** Viết hàm Python kiểm tra chuỗi Palindrome (đối xứng) và giải thích.
+> 📷 **Kết quả thực hành:**  
+> ![Sinh code và giải thích](link_anh_sinh_code.jpg)
+
+### 4.2 Sửa lỗi (Debugging)
+**Yêu cầu:** Sửa lỗi vòng lặp mảng trong C++.
+> 📷 **Kết quả thực hành:**  
+> ![Sửa lỗi code](link_anh_sua_loi.jpg)
+
+### 4.3 Viết tài liệu (README)
+**Yêu cầu:** Sinh file README.md cho hàm Palindrome.
+> 📷 **Kết quả thực hành:**  
+> ![Sinh tài liệu](link_anh_readme.jpg)
+
+### 4.4 Sinh Unit Test
+**Yêu cầu:** Viết 3 test cases sử dụng pytest.
+> 📷 **Kết quả thực hành:**  
+> ![Sinh Unit Test](link_anh_unittest.jpg)
+
+---
+
+## 5. Câu hỏi cần trả lời
+
+**1. AI đang thay đổi quy trình phát triển phần mềm như thế nào?**  
+AI chuyển dịch quy trình sang hướng "Shift to Design". Lập trình viên giảm bớt thời gian gõ code thủ công để tập trung vào tư duy kiến trúc, review code. Các quy trình Agile diễn ra nhanh hơn nhờ việc tự động hóa viết code cơ bản và test.
+
+**2. Những kỹ năng nào lập trình viên cần có để sử dụng AI hiệu quả?**  
+- **Prompt/Context Engineering:** Kỹ năng giao tiếp và cung cấp ngữ cảnh cho AI.
+- **Code Reviewing:** Khả năng thẩm định, kiểm tra độ an toàn và tối ưu của code do AI viết.
+- **System Design:** Tư duy kiến trúc hệ thống để chia nhỏ bài toán giao cho AI xử lý.
+
+**3. Theo bạn, công cụ AI nào phù hợp nhất cho doanh nghiệp?**  
+**GitHub Copilot Enterprise** (hoặc các phiên bản dành cho doanh nghiệp của Cursor/Tabnine) là phù hợp nhất. Lý do: Cam kết không sử dụng code công ty để train model (bảo mật), tích hợp sẵn vào CI/CD và có khả năng đọc hiểu (index) toàn bộ source code nội bộ để đưa ra gợi ý chuẩn xác.
+
+**4. AI có thể thay thế hoàn toàn lập trình viên trong tương lai không? Vì sao?**  
+**Không trong tương lai gần.** AI thiếu sự thấu hiểu về nghiệp vụ (business logic) của khách hàng và không thể chịu trách nhiệm pháp lý khi hệ thống xảy ra sự cố. Lập trình viên sẽ không mất việc, nhưng sẽ phải tiến hóa thành những "AI Engineer / Kỹ sư điều phối AI".
+
+**5. Những hạn chế của AI trong phát triển phần mềm là gì?**  
+- Tình trạng "ảo giác" (Hallucination): Bịa ra code hoặc thư viện không tồn tại.
+- Rủi ro bảo mật: Có thể đưa ra những đoạn code chứa lỗ hổng nếu model bị train bởi dữ liệu xấu.
+- Hạn chế ngữ cảnh: Khó nắm bắt được những hệ thống "legacy" cũ kỹ, phức tạp gồm hàng ngàn file liên kết chằng chịt.
